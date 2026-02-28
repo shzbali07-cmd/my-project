@@ -1,0 +1,24 @@
+ .bg-navbar{
+ background-color: darkblue;
+}
+.word-space{
+    word-spacing: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+} 
+
+/* js styling ccode here */
+#output,#statment{
+    text-align: center;
+}
