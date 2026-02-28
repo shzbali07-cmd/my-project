@@ -1,0 +1,36 @@
+body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+header{
+    background-color: darkblue;
+
+}
+
+
+#form{
+    height: 155px;
+   
+}
+#out{
+    height: 70px;
+}
+
+main{
+    flex: 1;
+    padding-bottom: 300px;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+footer{
+background-color: darkblue;
+    margin-top: auto;
+} 
