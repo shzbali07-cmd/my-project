@@ -1,0 +1,51 @@
+body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   /* background-color: black; */
+   padding: 0;
+}
+
+
+
+/* header{
+    background-color: darkblue;
+
+} */
+
+
+#oNumber{
+    height: 91px;
+   background-color: darkblue;
+}
+#out{
+    height: 90px;
+    width: 31%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+#out{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.buttons{
+    width: 40%;
+    margin: auto;
+    height: 200px;
+}
+
+main{
+    flex: 1;
+    padding-bottom: 300px;
+}
+
+/* body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+footer{
+background-color: darkblue;
+    margin-top: auto;
+}  */

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- bootstrap link here -->
+     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+     <!-- toastifyerror link here  -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body class="bg-dark">
+    <header>
+
+    </header>
+
+    <!--main content start from here################  -->
+    
+            <!--input button or field code here################  -->
+                          <div class="col-12 container text-center mt-5">
+                <div id="out" class="box border border-dark text-center">
+
+                    </div>
+            
+                <!-- buttons code paste here############-->
+                <div class="row mt-1">
+                    <div class="col-12 text-center ">
+                        <div class="box text-center buttons mb-5">
+                        <button class="btn btn-danger py-2 mb-2 btn-sm col-3" onclick="clearDisplay()">C</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="setOperator('/')">/</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="setOperator('*')">*</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('7')">7</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('8')">8</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('9')">9</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('4')">4</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('5')">5</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('6')">6</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('3')">3</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('2')">2</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('1')">1</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('0')">0</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('00')">00</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="pressNumber('.')">.</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="setOperator('-')">-</button>
+                        <button class="btn btn-dark py-2 mb-2 btn-sm col-3" onclick="setOperator('+')">+</button>
+                        <button class="btn btn-primary py-2 mb-2 btn-sm col-3" onclick="calculate()">=</button>
+                        
+                
+                    </div>
+                    
+                </div>
+                
+                <!-- OUTPUT CODE PASTE HERE ############## -->
+                  <!-- <div class="col-6 text-center mb-5">
+                <h3>Output</h3>
+                <div id="out" class="box border border-dark p-2 text-center">
+
+                    </div>
+                   <div class="row">
+                    <div class="col6 mt-3">
+                        <button class="btn btn-outline-secondary sm " onclick="clearOutPut()">Clear Output</button>
+                    </div>
+                   </div> -->
+
+
+                <!-- </div> container -->
+            </div>
+
+    </main>
+
+   
+    <script src="index.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- toastifyerroe link here -->
+     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
